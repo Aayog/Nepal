@@ -35,11 +35,12 @@ h1{
 }
 #intro{
     display:none;
-    padding: 0 0 0 10%;
-    font-family:fantasy;
 }
 #mapcontainer:hover #intro{
     display : block;
+}
+#sub{
+    margin-left: 435px; 
 }
 body{
     background-color: #9ab6e2;
