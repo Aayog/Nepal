@@ -8,7 +8,7 @@ h1{
 #information{
     text-align: justify;
     display: table-cell;
-    padding: 0 10% 1% 10%;
+    padding: 0 2% 1% 2%;
 }
 #firstIntro{
     font-style: oblique;
@@ -26,5 +26,9 @@ h1{
 }
 #geography{
     font-family:cursive;
-
+    margin : 2%;
+}
+#map{
+    float:right;
+    width:70%;
 }
