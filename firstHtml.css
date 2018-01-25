@@ -31,16 +31,15 @@ h1{
 #map{
     float:right;
     width:65%;
-    margin : 1% 2%;
 }
-#intro{
-    display:none;
-}
-#mapcontainer:hover #intro{
-    display : block;
-}
+
 #sub{
-    margin-left: 33%;
+    display: none;
+    margin-left: 5.1%;
+    text-shadow: 1px 1px #818218;
+}
+#mapcontainer:hover #intro #sub{
+    display : inline;
 }
 body{
     background-color: #9ab6e2;
