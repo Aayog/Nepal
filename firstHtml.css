@@ -19,10 +19,12 @@ h1{
 }
 #flag{
     width: 10%;
-    margin: 0 2%;
+    margin-left: 10%;
+    float: left;
 }
 #table{
-    float:left;
+    float: left;
+    margin-left:20%;
 }
 #geography{
     font-family:cursive;
@@ -31,6 +33,7 @@ h1{
 #map{
     float:right;
     width:65%;
+    margin-top: 5%;
 }
 
 #sub{
