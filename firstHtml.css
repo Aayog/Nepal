@@ -33,6 +33,14 @@ h1{
     width:65%;
     margin : 1% 2%;
 }
+#intro{
+    display:none;
+    padding: 0 0 0 10%;
+    font-family:fantasy;
+}
+#mapcontainer:hover #intro{
+    display : block;
+}
 body{
     background-color: #9ab6e2;
 }
