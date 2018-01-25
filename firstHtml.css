@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+    color : blue;
+    background-color: #ff6666;
+}
+#information{
+    text-align: justify;
+    color : #262626;
+    font-size: 20px;
+    font-weight: bold;
+    display: table-cell;
+    padding: 0 10% 1% 10%;
+}
+#firstIntro{
+    font-style: oblique;
+    padding-top: 0;
+    margin : 0 1% 1% 1%;
+
+}
+#flag{
+    width: 90%;
+}
