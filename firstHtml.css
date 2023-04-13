@@ -1,49 +1,131 @@
-h1{
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #9ab6e2;
+}
+
+h1 {
     text-align: center;
     font-family: fantasy;
     font-weight: bold;
-    color : blue;
+    color: blue;
     background-color: #ff6666;
+    padding: 50px;
 }
-#information{
+
+#information-section {
+    background-color: #e6e6e6;
+}
+
+#information {
     text-align: justify;
     display: table-cell;
     padding: 0 2% 1% 2%;
+    margin: 30px auto;
+    max-width: 700px;
 }
-#firstIntro{
+
+#firstIntro {
     font-style: oblique;
-    color : #262626;
+    color: #262626;
     font-size: 20px;
     font-weight: bolder;
-
 }
-#flag{
+
+#flag-container {
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+#flag {
     width: 10%;
     margin-left: 10%;
     float: left;
 }
-#table{
+
+#table {
     float: left;
-    margin-left:20%;
+    margin-left: 20%;
 }
-#geography{
-    font-family:cursive;
-    margin :0% 2%;
+
+#geography-section {
+    background-color: #f2f2f2;
 }
-#map{
-    float:right;
-    width:65%;
+
+#geography {
+    font-family: cursive;
+    margin: 0% 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 50px;
+}
+
+#geography-info {
+    width: 30%;
+}
+
+#map-container {
+    width: 65%;
+    position: relative;
+}
+
+#map {
+    float: right;
+    width: 100%;
+    height: auto;
     margin-top: 5%;
 }
 
-#sub{
+#map-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+#sub {
     display: none;
     margin-left: 5.1%;
     text-shadow: 1px 1px #818218;
 }
-#mapcontainer:hover #intro #sub{
-    display : inline;
+
+#map-container:hover #intro #sub {
+    display: inline;
 }
-body{
-    background-color: #9ab6e2;
+
+@media screen and (max-width: 768px) {
+    #information {
+        padding: 10px;
+        margin: 20px auto;
+    }
+    #flag {
+        width: 150px;
+        margin-left: 0;
+    }
+    #table {
+        margin-left: 10%;
+    }
+    #geography {
+        flex-direction: column;
+        padding: 20px;
+    }
+    #geography-info {
+        width: 100%;
+    }
+    #map-container {
+        width: 100%;
+    }
 }
